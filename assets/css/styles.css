@@ -1680,14 +1680,48 @@ ul.slides li {
 	overflow: hidden;
 	margin:3% auto 0%;
 }
+/*
 .sponsors{
 	position: relative;
     top: 520px;
     left: 575px;
+	position: absolute;
+    top: 80%;
+    left: 43%;
+}*/
+.sponsors{
+	padding-top:30px;
+}
+#sponsers .logos{
+	height:150px;
+	text-align:center;
+	padding-top:30px;
+}
+#sponsers .splogo{
+	padding-left:40px;
+}
+#sponsers .logos img{
+	height:150px;
+	-webkit-transition:-webkit-transform .35s;
+	-moz-transition:-moz-transform .35s;
+	transition:transform .35s;
+}
+#sponsers .logos img:hover{
+	-webkit-transform:scale(1.1,1.1);
+	-o-transform:scale(1.1,1.1);
+	-moz-transform:scale(1.1,1.1);
+	-ms-transform:scale(1.1,1.1);
+	transform:scale(1.1,1.1);
+	overflow:hidden;
+}
 
+#sponsers .logos img.hackster{
+	height:80px;
+	position:relative;
+	top:52px;
 }
 .sponsors img{
-	border-radius:10px;
+	border-radius:0;
 	background:#FFF;
 }
 .inner_carousal{
@@ -1699,6 +1733,7 @@ ul.slides li {
 	height: 150px; 
 	overflow: hidden;
 }
+
 
 ul.planContainer:hover {
 	-webkit-transform: scale(1.04);
